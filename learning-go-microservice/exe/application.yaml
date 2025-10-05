@@ -1,0 +1,3 @@
+server:
+  port: 8080
+  userBaseEndpoint: /learning.go.com/v1

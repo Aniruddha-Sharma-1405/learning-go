@@ -117,7 +117,10 @@ func init() {
           "200": {
             "description": "A JSON array of user names",
             "schema": {
-              "$ref": "#/definitions/User"
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/User"
+              }
             }
           }
         }
@@ -260,7 +263,10 @@ func init() {
           "200": {
             "description": "A JSON array of user names",
             "schema": {
-              "$ref": "#/definitions/User"
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/User"
+              }
             }
           }
         }
